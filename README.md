@@ -1,4 +1,4 @@
-# CS207Project - Photo-NeuroFeedback Device 
+# CS207Project - Photo-NeuroFeedback Device V1.0
 Project for CS 207 - building Interactive Gadgets
 
 The aim of this Project is to develop a proof of concept Neurofeedback system, using a pre-existing hardware solution called the Brain Machine, a Sound Light Machine (SLM designed and built by a well known Hacker and Engineer named Mitch Altman. This device will satisfy the requirements of developing a novel neurofeedback system using Mitch’s SLM, which is claimed that “Wearing the glasses often induces colorful hallucinations while in use, a sense of relaxation afterwards and, are a fun 14 minute brain trip.” 
