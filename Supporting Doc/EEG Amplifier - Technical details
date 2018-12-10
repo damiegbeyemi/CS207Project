@@ -1,0 +1,46 @@
+EEG Technical Details
+
+
+EEG Amplifier 
+http://openeeg.sourceforge.net/doc/modeeg/modeeg_design.html
+
+
+
+
+-EEG Signal Filtering using Right-leg driver (DRL-circuit) 🗹
+the signal is first amplified by a high quality instrumentation amplifier, which measures the voltage difference between two locations on the scalp.
+signal strength is increased further by normal amplifiers
+ passed through a low-pass filter which minimizes distortion caused by aliasing 
+occurs when the signal is converted to digital samples.
+http://erkutlu.blogspot.com/2012/12/eeg-and-arduino-do-it-yourself-eeg-ekg.html
+
+Data Acquisition
+
+https://www.youtube.com/watch?v=AgJegJ30Pj4
+
+Connect Intellifier to the arduino
+Solder old Sensors to dry electrodes
+Plug in to intellifier using old sensor plug
+Cut usb cable end to access wires
+Plug in wires to Breadboard
+Red (5v Vcc)
+White (Data +)
+Green  (Data -)
+Black  (GND)
+Plugin to Arduino Uno for testing
+Use pinmode input signal
+Use serial to read and write 
+Display the input signal
+Format data into usable form
+Find software to show eeg signal graph
+Use processing (software) 
+
+EEG Signal Prioritization
+
+Use Alpha (relaxation frequency) to drive LED’s. 
+Toggle switch to mode of operation:
+When person is stressed (high Beta amplitude > threshold (sustained) 
+Flash at 12 hz
+When person wants focus (Delta, theta > threshold (sustained)
+Flash at 22 hz
+
