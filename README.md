@@ -7,13 +7,13 @@ Since Mitch’s design uses regular LED lights shone through glasses, on the clo
 
 # Repository Contents
 * /Code - Original Code used to test hardware and new Neurofeedback protocol code
-/Final Write up - Project completion report
-/Ideas - Documentation of original builds and code, instruction manual
-/Parts - List of components used to build device
-/Pictures - images of build from inception to completion
-/Presentation - Preparation documents for class presentation
-/Project Proposal - Initial Proposal for project build
-/Supporting Documentation - Studies, research, cited material etc. 
+* /Final Write up - Project completion report
+* /Ideas - Documentation of original builds and code, instruction manual
+* /Parts - List of components used to build device
+* /Pictures - images of build from inception to completion
+* /Presentation - Preparation documents for class presentation
+* /Project Proposal - Initial Proposal for project build
+* /Supporting Documentation - Studies, research, cited material etc. 
 
 # Requirements and materials
 
