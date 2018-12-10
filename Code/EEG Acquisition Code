@@ -1,0 +1,69 @@
+/*
+Written by Dami Egbeyemi
+Code to acquire EEG Signals from amplifier to Arduino
+*/
+
+//const float blueWire = 0; //usb white wire
+//const float redWire = A2; //usb green wire
+//const float greenWire = A3; //usb white wire
+//const float orangeWire = A4; //usb green wire
+//const float purpleWire = A5; //usb white wire
+//const float rXwWire = 1; //usb green wire
+ const float tXWire = A0; //usb green wire
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(19200);
+  Serial.println("tXgWire"); //blueWire  redWire greenWire orangeWire  purpleWire  rXwWire 
+  Serial.println(); 
+// pinMode(blueWire, INPUT);
+//  pinMode(redWire, INPUT);
+//  pinMode(greenWire, INPUT);
+//  pinMode(orangeWire, INPUT);
+//  pinMode(purpleWire, INPUT);
+//  pinMode(rXwWire, INPUT);
+  pinMode(tXWire, INPUT);
+  
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+//  float bluePinState = analogRead(blueWire); 
+//  float redPinState = analogRead(redWire); 
+//  float greenPinState = analogRead(greenWire); 
+//  float orangePinState = analogRead(orangeWire);
+//  float purplePinState = analogRead(purpleWire); 
+//  float rXPinState = analogRead(rXwWire);  
+  float tXPinState = analogRead(tXWire);
+  float brainState = 5.0 * tXPinState/1023.0;
+
+//  Serial.print(bluePinState);
+//  Serial.print("      "); 
+//  delay(1);
+//  Serial.print(redPinState);
+//  Serial.print("      "); 
+//  delay(1);
+//   Serial.print(greenPinState);
+//  Serial.print("      "); 
+//  delay(1);
+//  Serial.print(orangePinState);
+//  Serial.print("      "); 
+//  delay(1);
+//   Serial.print(purplePinState);
+//  Serial.print("     "); 
+//  delay(1);
+//  Serial.print(rXPinState);
+//  Serial.print("     "); 
+//  delay(1);
+    Serial.print(tXPinState);
+  Serial.print("    "); 
+  delay(1);
+  Serial.print('\n'); 
+}
+
+
+
+
+
+
+
