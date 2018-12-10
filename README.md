@@ -36,32 +36,31 @@ The arduino UNO board will be used test the system by collecting Brain Wave Data
 
 ## Parts List
 
-2 - 810 nm Infrared LED
-2 - 8ohm speakers
-1 - 10k ohm potentiometer
-1 - 47 Ohm Resistor
-1 - 2.2k Resistor
-1 - toggle switch
-1 - 9v batter
-1- 9v battery holder with power plug
-1 - Arduino Uno
-1 - pair of Safety glasses
-wire
+* 2 - 810 nm Infrared LED
+* 2 - 8ohm speakers
+* 1 - 10k ohm potentiometer
+* 1 - 47 Ohm Resistor
+* 1 - 2.2k Resistor
+* 1 - toggle switch
+* 1 - 9v batter
+* 1- 9v battery holder with power plug
+* 1 - Arduino Uno
+* 1 - pair of Safety glasses
+* wire
 
-2 - Silver EEG Sensor leads and wires
-1 -EEG amplifier 
+* 2 - Silver EEG Sensor leads and wires
+* 1 -EEG amplifier 
 
 ## Tools
-
-Soldering Iron
-Solder
-Solder sucker
-Multimeter
-Flush Diagonal Cutters
-Drill
-Hair Dryer
-Glue Gun
-Helping hands with Magnifying glass
+* Soldering Iron
+* Solder
+* Solder sucker
+* Multimeter
+* Flush Diagonal Cutters
+* Drill
+* Hair Dryer
+* Glue Gun
+* Helping hands with Magnifying glass
 
 # Build Instructions
 
