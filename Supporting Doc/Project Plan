@@ -1,0 +1,140 @@
+A Sound Light Machine called the Brain Machine created by Mitch Altman[3] will be used to achieve the desired technical requirements for the Neurofeedback system.
+This device will input data from EEG sensors,
+ process the signal according to set parameters derived from a Neurofeedback training protocol
+Neurofeedback training protocol: derived from The Learning Curve Neurofeedback system of Peter Van Deusen[4]. 
+ output the feedback delivering PBM to the clients via their Retina. 
+The client’s response to this stimulus will then be stored as raw EEG data file. 
+Data used to provide a client progress report, and graphing to develop further protocols.
+Deliverables
+The end product will be glasses which the client can wear, comprising of the following products:
+SLM Glasses using integrated 810nm LED lights as the output / feedback mechanism 🗹
+EEG sensors and amplifier integrated into the SLM glasses to read Brain Wave patterns from clients scalp 🗹
+Code using Arduino IDE to program LED’s to provide real-time feedback via Sensors 🗹
+Github repository containing uploaded hardware design, code, readme and other documentation 🗹
+Final Project Report 🗹
+Project Presentation 🗹
+
+Requirements
+Hardware: 
+Output  🗹
+Integrate 810nm LED  
+- Feedback Mechanism
+
+Input  🗹
+Integrate EEG sensors into Glasses
+-Data acquisition
+
+Software: 
+Processing  🗹
+-EEG Signal Filtering using Right-leg driver (DRL-circuit) 🗹
+the signal is first amplified by a high quality instrumentation amplifier, which measures the voltage difference between two locations on the scalp.
+signal strength is increased further by normal amplifiers
+ passed through a low-pass filter which minimizes distortion caused by aliasing 
+occurs when the signal is converted to digital samples.
+
+
+-EEG Signal Decomposition  🗹
+-EEG Frequency Classification  🗹
+-Signal Prioritization  🗹
+-Set Blink pattern of LED’s to match property of input signal  🗹
+
+Storage
+-Create a formatted report of Raw EEG client data  🗹
+-Store report on SD Card  🗹
+
+Documentation
+Github.com
+-Create Readme  🗹
+-Upload code  🗹
+-Upload Hardware parts list and design  🗹
+Write-up
+-Documenting the project development process  🗹
+-How project works  🗹
+-Successes or failures refer to grading rubric  🗹
+Powerpoint
+Convey to audience of peers and community member work done over the semester  🗹
+
+
+Timeline 
+Deliverable
+Features
+Components
+Timeline
+Deadline
+SLM Glasses -
+Integrated 810nm LED
+- Output
+- Feedback Mechanism
+
+
+2 - 810 nm Infrared LED
+2 - 47 Ohm Resistor
+2 - 2.2k Resistor
+1 - 1.0 uF electrolytic capacitor
+1 - 6mm  tactile switch
+2 - AAA batteries
+1- AAA battery holder
+
+
+1 week
+Oct 27
+- Nov 03, 2018
+Nov 3
+Integrate EEG sensors into Glasses
+Input
+-Data acquisition
+-Silver EEG Sensor leads 
+-Wires 
+-BrainTellect EEG amplifier (Use to test signals)
+
+
+1 Week
+Nov 04 
+- Nov 10, 2018
+Nov 10
+Write Code
+Processing
+-EEG Signal Filtering
+-EEG Signal Decomposition
+-EEG Frequency Classification
+-Signal Prioritization
+-Set Blink pattern of LED’s to match property of input signal
+-Create a formatted report of Raw EEG client data
+
+   
+
+
+Arduino IDE
+3 Weeks
+Nov 04 
+-Nov 24, 2018
+Nov 24
+Update Github Repository
+-Create Readme
+-Upload code
+-Upload Hardware parts list and design
+
+
+Github.com
+5 Weeks
+Oct 27 
+- Nov 24, 2018
+Dec 1, 2018
+Final Project Report
+-Documenting the project development process
+-How project works
+-Successes or failures refer to grading rubric
+Write-up
+5 Weeks
+Oct 27 
+- Dec 01, 2018
+Dec 1, 2018
+Project Presentation
+Convey to audience of peers and community member work done over the semester
+Powerpoint
+3 days
+Dec 01 
+- Dec 5, 2018 
+Dec 5, 2018
+
+
