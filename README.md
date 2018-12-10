@@ -6,14 +6,14 @@ The aim of this Project is to develop a proof of concept Neurofeedback system, u
 Since Mitch’s design uses regular LED lights shone through glasses, on the closed eye’s of the client, it seemed logical to experiment with the technology of PhotoBioModulation, using 810nm LED’s which are readily available (Costs $2.89 per LED), scientifically studied and medically tested, light frequency device  used to provide eye, brain and body stimulation. Along with a customized software program which will operate the LED’s in a method the Author calls Photo-NeuroFeedback.
 
 # Repository Contents
--/Code - Original Code used to test hardware and new Neurofeedback protocol code
--/Final Write up - Project completion report
--/Ideas - Documentation of original builds and code, instruction manual
--/Parts - List of components used to build device
--/Pictures - images of build from inception to completion
--/Presentation - Preparation documents for class presentation
--/Project Proposal - Initial Proposal for project build
--/Supporting Documentation - Studies, research, cited material etc. 
+/Code - Original Code used to test hardware and new Neurofeedback protocol code
+/Final Write up - Project completion report
+/Ideas - Documentation of original builds and code, instruction manual
+/Parts - List of components used to build device
+/Pictures - images of build from inception to completion
+/Presentation - Preparation documents for class presentation
+/Project Proposal - Initial Proposal for project build
+/Supporting Documentation - Studies, research, cited material etc. 
 
 # Requirements and materials
 
