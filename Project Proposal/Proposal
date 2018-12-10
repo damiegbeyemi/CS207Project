@@ -1,0 +1,196 @@
+
+Photo-NeuroFeedback:
+A Novel Light based Neurofeedback Delivery Method
+Project Proposal 
+By: Dami Egbeyemi
+CS 207 - Building Interactive Gadgets
+Instructor: Trevor Tomesh
+
+
+Introduction (1 or 2 paragraphs)
+Neurofeedback is a technology which measures the brain’s event related potentials (ERP), which are also known as Brain Wave’s (BW). These Brain Waves are measured using technology called Electroencephalography(EEG) which tracks BW’s and filters them into their component parts. The Brain Lobe being observed can be trained using Neurofeedback, as well as brain stimulation devices such as Photobiomodulation, to provide Neurofeedback and NeuroStimulation to clients. Neurofeedback devices evaluate brain rhythms (EEG) and provide the client with Feedback, in order to help that person manage stress, anxiety and improve their performance in a variety of ways. 
+Neurofeedback sessions can run for an average of 1 hour,  and cost anywhere from $80 - $250 per session depending on which Neurofeedback Practitioner the Client sees . Clients need twenty to forty sessions or more to see the benefits of training, and improvements in their performance. The cost in time and money are generally a barrier for many people who can be helped by Neurofeedback technology.
+The solution to this problem is to have a Neurofeedback system which is effective, affordable, and easy to use. This system would be portable, and will provide Neurofeedback training protocols to the client automatically, and deliver a session progress report at the end of the session, for progress tracking purposes.
+Motivation
+Neurofeedback has been around for over 60 years. The technology started as a way to study biological signals from an individual by using sensors, placed on specific regions of the body, in order to elicit what the body is doing in real-time. These signals are generally in the form of electrical and kinetic energy which can be measured non-invasively from the surface of the skin using EEG sensors. Over the years there has been an increase in the complexity and utility of these systems, however portability has only been seriously explored in the last decade. This problem is interesting because once solved, we can potentially have a situation where, people who were previously unable to afford Neurofeedback services would have access to the technology at a fraction of the cost and save time by doing sessions anywhere.
+With an improvement in the portability and affordability of Neurofeedback, we could potentially see an increase in the amount of people using Neurofeedback as a means to improve their performance in sports, education and improving their ability to regulate their emotions. There are several companies looking at improving the portability of Neurofeedback systems. Still, improvements can be made to the current paradigm to improve the costs and utility of mobile Neurofeedback devices.
+ Currently most mobile Neurofeedback devices use proprietary techniques to measure and train clients brains by measuring EEG signals and providing feedback in the form of operant conditioning and rewards. The feedback provided by most Neurofeedback systems are usually in the form of auditory, visual (provided in the form of screen images, games or tasks) stimulation, triggered by specific events in EEG signals. Some examples of these technologies are:
+Muse Brain Sensing headband[1] 
+
+Muse is called a personal meditation assistant, which guides the client to a calmer mind. Essentially, the client puts on the Muse headband, earbuds and starts an app on their phone, which immerse’s the client into the sounds of a beach or rainforest. While the client meditates, Muse measures the activity of the clients mind, and translates that data into weather sounds. When calm, the client hears peaceful weather sounds. When their mind wanders, the weather will intensify, guiding them back to a calm state. Cost $250 CAD
+The NeuroSky MindWave headset[2]
+
+The NeuroSky MindWave headset measures brainwave signals, and determines attention and relaxation level of clients. clients work with with math, memory, and pattern recognition applications in the form of interactive apps. The headset can be further developed by clients using a Software Developers Kit (SDK). MindWave transmits data via Radio Frequency signals through a dongle. Cost CA$125.
+Vielight: Neuro - Alpha
+
+The Vielight Neuro Alpha uses  transcranial-intranasal near infrared(NIR) 810nm LED’s to provide comprehensive brain photobiomodulation. This uses microchip enhanced LED’s to boost the power output of the technology leading to deeper stimulation of the Brain. CA$2,279.00
+These devices effective at delivering the beneficial effects of Neurofeedback to the client; however they suffer from some issues, including a steep learning curve when using the Muse and NeuroSky applications, since individuals often complain of the length of time it takes to calibrate and setup the device’s. The  Vielight Neuro-alpha headset is a great example of a clinically studied device which provides brain stimulation via PhotoBioModulation, and has been proven to be effective in treating a range of brain based issues, including, parkinson’s and dementia. However, the device is cost prohibitive, and is restricted to use as a medical device.   
+Project Summary
+This Project aims to develop a proof of concept Neurofeedback system, using a pre-existing hardware solution called the Brain Machine, a Sound Light Machine (SLM designed and built by a well known Hacker and Engineer named Mitch Altman. This device will satisfy the requirements of developing a novel neurofeedback system using Mitch’s SLM, which he claims “Wearing the glasses often induces colorful hallucinations while in use, a sense of relaxation afterwards and, are a fun 14 minute brain trip.” 
+
+
+Since Mitch’s design uses regular LED lights shone through glasses, on the closed eye’s of the client, it seemed logical to experiment with the technology of PhotoBioModulation, using 810nm LED’s which are readily available (Costs $2.89 per LED), scientifically studied and medically tested, light frequency device  used to provide eye, brain and body stimulation. Along with a customized software program which will operate the LED’s in a method the Author calls Photo-NeuroFeedback. 
+Project Details
+Architecture and Environment
+By the conclusion of this project, a proof of concept Photo-Neurofeedback device will be built which replaces the LED’s in Mitch’s design, with a couple of 810nm LED’s. Also new code will be written on the Arduino IDE using the C/C++ programing language to run the LED’s. The LED’s will operate according to the requirements of a Neurofeedback device; which is a device that reads EEG and provides sensory data to the client in order to help the client attain a certain state of mind. 
+A Sound Light Machine called the Brain Machine created by Mitch Altman[3] will be used to achieve the desired technical requirements for the Neurofeedback system and will be programmed to use a Neurofeedback training protocol, derived from The Learning Curve Neurofeedback system of Peter Van Deusen[4]. This device will input data from EEG sensors, process the signal according to set parameters derived from a Neurofeedback training protocol and output the feedback delivering PMB to the clients via their Retina. The client’s response to this stimulus will then be stored as raw EEG data file. Eventually this data can be used to provide a client progress report, and graphing to develop further protocols. 
+This project is created and coded by Dami Egbeyemi, the author of this proposal. This project was inspired by his novel ideas, and Neurofeedback training programs including TLC, NeurOptimal Advanced Brain Training Systems and Brain State Technologies where he received his Training and certification to provide NeuroFeedback as a service. 
+Software
+ The software will be a sketch designed on the Arduino IDE using the C/C++ programming languages
+Hardware
+The arduino UNO board will be used test the system by collecting Brain Wave Data as well as providing Neurofeedback using the flashing lights. 
+Parts List
+2 - 810 nm Infrared LED
+2 - 47 Ohm Resistor
+2 - 2.2k Resistor
+1 - 1.0 uF electrolytic capacitor
+1 - 6mm  button switch
+2 - AAA batteries
+1- AAA battery holder
+1 - Arduino Uno
+1 - ATMEGA328 ARDUINO PRO MINI 5V
+Safety glasses
+Ribbon wire
+Zip ties
+Silver EEG Sensor leads and wires 
+BrainTellect EEG amplifier (Use to test signals)
+Tools
+Soldering Iron
+Solder
+Solder sucker
+Multimeter
+Flush Diagonal Cutters
+Drill
+Hair Dryer
+Glue Gun
+Helping hands with Magnifying glass
+
+Implementation Issues and Challenges
+Since the Author is a novice coder, this project will be a leap in technical difficulty that the author is not used to
+Creating an LED blinking sequence to match the specified brain wave activity will require diligent research for relevant information that can aid in the development of the software
+Converting signal attributes like Amplitude, Wavelength, and phase into a a representative blinking signal will require learning signal processing, and application of waveform filters such as Fourier transforms or joint time frequency analysis
+Combining the EEG sensors and Amplifier into the Photo-Neurofeedback design will require critical thinking and a design mentality to integrate with Mitch’s original design
+The system needs to be functional while being comfortable for the wearer
+Extending current tools/systems
+Mitch Altman uses an IC1 microcontroller in the design, whereas the author will attempt to use the Arduino Uno during the build and testing phase, 
+A Pro Mini microcontroller will replace the Uno in the final implementation of the device
+Most Components and tools used for this project are already owned by the Author
+Components salvaged for use in this project include:
+Refurbished Silver EEG Sensors from old NeurOptimal Sensor and Amplifier kit
+EEG Amplifier Salvaged from old BrainIntellect EEG Kit
+Components purchased include:
+Arduino Pro Mini to be implemented depending on time availability
+810nm Light Emitting Diodes
+
+Deliverables
+The end product will be glasses which the client can wear, comprising of the following products:
+SLM Glasses using integrated 810nm LED lights as the output / feedback mechanism
+EEG sensors and amplifier integrated into the SLM glasses to read Brain Wave patterns from clients scalp
+Code using Arduino IDE to program LED’s to provide real-time feedback via Sensors
+Github repository containing uploaded hardware design, code, readme and other documentation
+Final Project Report
+Project Presentation
+Timeline 
+Deliverable
+Features
+Components
+Timeline
+Deadline
+SLM Glasses -
+Integrated 810nm LED
+- Output
+- Feedback Mechanism
+
+
+2 - 810 nm Infrared LED
+2 - 47 Ohm Resistor
+2 - 2.2k Resistor
+1 - 1.0 uF electrolytic capacitor
+1 - 6mm  tactile switch
+2 - AAA batteries
+1- AAA battery holder
+
+
+1 week
+Oct 27
+- Nov 03, 2018
+Nov 3
+Integrate EEG sensors into Glasses
+Input
+-Data acquisition
+-Silver EEG Sensor leads 
+-Wires 
+-BrainTellect EEG amplifier (Use to test signals)
+
+
+1 Week
+Nov 04 
+- Nov 10, 2018
+Nov 10
+Write Code
+Processing
+-EEG Signal Filtering
+-EEG Signal Decomposition
+-EEG Frequency Classification
+-Signal Prioritization
+-Set Blink pattern of LED’s to match property of input signal
+-Create a formatted report of Raw EEG client data
+
+   
+
+
+Arduino IDE
+3 Weeks
+Nov 04 
+-Nov 24, 2018
+Nov 24
+Update Github Repository
+-Create Readme
+-Upload code
+-Upload Hardware parts list and design
+
+
+Github.com
+5 Weeks
+Oct 27 
+- Nov 24, 2018
+Dec 1, 2018
+Final Project Report
+-Documenting the project development process
+-How project works
+-Successes or failures refer to grading rubric
+Write-up
+5 Weeks
+Oct 27 
+- Dec 01, 2018
+Dec 1, 2018
+Project Presentation
+Convey to audience of peers and community member work done over the semester
+Powerpoint
+3 days
+Dec 01 
+- Dec 5, 2018 
+Dec 5, 2018
+
+Conclusion
+	This project was motivated by the idea of creating a neurofeedback device which provides the client with the combined benefits of NeuroFeedBack and NeuroStimulation. This Photo-NeuroFeedBack device will be portable, affordable, easy to use and effective in addressing some of the burdens associated with NeuroFeedback,  by reducing the cost and improving the mobility of the technology, which in turn will benefit many people who did not have access to the technology.
+The problem of portability and costs of Neurofeedback system’s is worth tackling because Neurofeedback can be a tool used to solve the pervasive issue of stress in our society. Neurofeedback can  help improve people’s performance in Work, Sports and Life. 
+The Author’s hope is that by the end of this project, he will have contributed an innovation to the field of NeuroFeedback, and create opportunities for further development to the emerging field of Neurofeedback.
+
+References
+[1]
+T. Karvinen and K. Karvinen, Make a Mind-Controlled Arduino Robot: Use Your Brain as a Remote, 1 edition. Beijing ; Cambridge: Maker Media, Inc, 2011.
+[2]
+“Amazon.com: Muse: The Brain Sensing Headband, Black: Sports & Outdoors.” [Online]. Available: https://www.amazon.com/Muse-The-Brain-Sensing-Headband/dp/B00PL9G16W. [Accessed: 22-Oct-2018].
+[3]
+“NeuroSky MindWave Headset: Amazon.ca: Electronics.” [Online]. Available: https://www.amazon.ca/NeuroSky-80013-001-MindWave-Headset/dp/B00A2UQUXY/ref=sr_1_2?ie=UTF8&qid=1540249982&sr=8-2&keywords=neurosky. [Accessed: 22-Oct-2018].
+[4]
+V. R. Ribas, R. de M. G. Ribas, and H. A. de L. Martins, “The Learning Curve in neurofeedback of Peter Van Deusen: A review article,” Dement Neuropsychol, vol. 10, no. 2, pp. 98–103, 2016.
+[5]
+“Overview | Arduino Lesson 4. Eight LEDs and a Shift Register | Adafruit Learning System.” [Online]. Available: https://learn.adafruit.com/adafruit-arduino-lesson-4-eight-leds. [Accessed: 11-Oct-2018].
+[6]
+J. C. Rojas and F. Gonzalez-Lima, “Low-level light therapy of the eye and brain,” Eye Brain, vol. 3, pp. 49–67, Oct. 2011.
+[7]
+“brain-machine.pdf.” .
+
+
