@@ -6,18 +6,18 @@ The aim of this Project is to develop a proof of concept Neurofeedback system, u
 Since Mitch’s design uses regular LED lights shone through glasses, on the closed eye’s of the client, it seemed logical to experiment with the technology of PhotoBioModulation, using 810nm LED’s which are readily available (Costs $2.89 per LED), scientifically studied and medically tested, light frequency device  used to provide eye, brain and body stimulation. Along with a customized software program which will operate the LED’s in a method the Author calls Photo-NeuroFeedback.
 
 # Repository Contents
-/Code - Original Code used to test hardware and new Neurofeedback protocol code
-/Final Write up - Project completion report
-/Ideas - Documentation of original builds and code, instruction manual
-/Parts - List of components used to build device
-/Pictures - images of build from inception to completion
-/Presentation - Preparation documents for class presentation
-/Project Proposal - Initial Proposal for project build
-/Supporting Documentation - Studies, research, cited material etc. 
+###-/Code - Original Code used to test hardware and new Neurofeedback protocol code
+-/Final Write up - Project completion report
+-/Ideas - Documentation of original builds and code, instruction manual
+-/Parts - List of components used to build device
+-/Pictures - images of build from inception to completion
+-/Presentation - Preparation documents for class presentation
+-/Project Proposal - Initial Proposal for project build
+-/Supporting Documentation - Studies, research, cited material etc. 
 
 # Requirements and materials
 
-Architecture and Environment
+## Architecture and Environment
 
 A Sound Light Machine called the Brain Machine created by Mitch Altman will be used to achieve the desired technical requirements for the Neurofeedback system and will be programmed to using a simple Neurofeedback training protocol. This proof of concept Photo-Neurofeedback device replaces the LED’s in Mitch’s design, with a couple of 810nm LED’s. 
 The LED’s will operate according to the requirements of a Neurofeedback device; which is a device that reads EEG and provides sensory data to the client in order to help the client attain a certain state of mind. 
@@ -26,15 +26,15 @@ This device will input data from EEG sensors, process the signal according to se
 
 Code will be written on the Arduino IDE using the C/C++ programing language to run the LED’s. 
 
-Software
+## Software
 
  The software will be a sketch designed on the Arduino IDE using the C/C++ programming languages
 
-Hardware
+## Hardware
 
 The arduino UNO board will be used test the system by collecting Brain Wave Data as well as providing Neurofeedback using the flashing lights. 
 
-# Parts List
+## Parts List
 
 2 - 810 nm Infrared LED
 2 - 8ohm speakers
@@ -51,7 +51,7 @@ wire
 2 - Silver EEG Sensor leads and wires
 1 -EEG amplifier 
 
-# Tools
+## Tools
 
 Soldering Iron
 Solder
