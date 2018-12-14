@@ -57,7 +57,6 @@ The arduino UNO board will be used test the system by collecting Brain Wave Data
 * Multimeter
 * Flush Diagonal Cutters
 * Drill
-* Hair Dryer
 * Glue Gun
 * Helping hands with Magnifying glass
 
@@ -125,21 +124,17 @@ Read full Details in Completion report
 ![](Pictures_/20181213_153044.jpg)
 
 * Upload EEG acquisition code to Arduino
-<>
+<https://github.com/damiegbeyemi/CS207Project/blob/master/Code/EEG%20Acquisition%20Code>
 
 * Change pins in code to fit your build
 
 * Use serial plotter to plot signal (Change baud rate as needed, in code and in serial plotter)
 ![](Pictures_/signal%20acquired.JPG)
 
-
-### Schematic
-
-
 # Firmware Installation
 
 * Ensure you change Pins in code to relevant Pins used on Arduino for Speakers, LEDs, Potentiometer and switch
-* Use Arduino IDE to upload Code to Arduino Uno
+* Use Arduino IDE to upload Brain machine code - Chris Sparnicht Code to Arduino Uno <https://github.com/damiegbeyemi/CS207Project/blob/master/Code/Brain%20machine%20code%20-%20Chris%20Sparnicht>
 
 # Usage
 
