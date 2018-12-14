@@ -1,6 +1,8 @@
 /*
 Written by Dami Egbeyemi
-Code to acquire EEG Signals from amplifier to Arduino for Photo-Neurofeedback Device
+Code to acquire EEG Signals from amplifier to Arduino for Photo-Neurofeedback Device and store that data onto an SD card.
+
+**Disclaimer: This code is still a work in progress and is a proof of concept code that the final working program will be based on**
 */
 #include <SD.h>
 #include <SPI.h>
