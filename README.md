@@ -106,6 +106,11 @@ Read full Details in Completion report
 ![](Pictures_/20181213_152508.jpg)
 
 
+## Firmware Installation
+
+* Ensure you change Pins in code to relevant Pins used on Arduino for Speakers, LEDs, Potentiometer and switch
+* Use Arduino IDE to upload Brain machine code - Chris Sparnicht Code to Arduino Uno <https://github.com/damiegbeyemi/CS207Project/blob/master/Code/Brain%20machine%20code%20-%20Chris%20Sparnicht>
+
 
 ## EEG Amplifier
 
@@ -131,10 +136,6 @@ Read full Details in Completion report
 * Use serial plotter to plot signal (Change baud rate as needed, in code and in serial plotter)
 ![](Pictures_/signal%20acquired.JPG)
 
-# Firmware Installation
-
-* Ensure you change Pins in code to relevant Pins used on Arduino for Speakers, LEDs, Potentiometer and switch
-* Use Arduino IDE to upload Brain machine code - Chris Sparnicht Code to Arduino Uno <https://github.com/damiegbeyemi/CS207Project/blob/master/Code/Brain%20machine%20code%20-%20Chris%20Sparnicht>
 
 # Usage
 
@@ -148,7 +149,7 @@ Read full Details in Completion report
 8.	Turn the switch to the off position. 
 
 
-# Team
+# Project by
 Dami Egbeyemi
 
 # Credits
