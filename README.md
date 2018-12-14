@@ -80,7 +80,7 @@ Read full Details in Completion report
 * Connect Arduino to the arm of safetyglasses
 ![](Pictures_/20181105_184800.jpg)
 
-* Test circuit on Breadboard by using Chris Sperlict Code
+* Test circuit on Breadboard by using Chris Sparnicht Code
 ![](Pictures_/20181106_223923.jpg)
 
 * Add potentiometer (For Volume control) and Toggle switch (on/off)
