@@ -67,7 +67,8 @@ The arduino UNO board will be used test the system by collecting Brain Wave Data
 Read full Details in Completion report
 
 ### Schematic
-![](Pictures_/
+
+![](Pictures_/Brain%20Machine%20Schematic_bb.jpg)
 
 
 * Build the speaker and LED circuit by using a bread board 
@@ -95,10 +96,42 @@ Read full Details in Completion report
 ![](Pictures_/20181107_145507.jpg)
 
 * Wrap surface using electrical tape for aesthetics
+![](Pictures_/20181213_152051.jpg)
 
-## For PNFB Glasses
+![](Pictures_/20181213_152122.jpg)
+
+![](Pictures_/20181213_152136.jpg)
+
+![](Pictures_/20181213_152309.jpg)
+
+![](Pictures_/20181213_152508.jpg)
+
+
+
+## EEG Amplifier
 
 Read full Details in Completion report
+
+### Schematic
+
+![](Pictures_/EEG%20Amplifier%20with%20sensors_bb.jpg)
+
+* Connect components as shown above on a bread board schematic
+![](Pictures_/20181213_152727.jpg)
+
+
+* Add sensor wires to circuit between the ground and negative side of the capacitor
+![](Pictures_/20181213_152905.jpg)
+![](Pictures_/20181213_153044.jpg)
+
+* Upload EEG acquisition code to Arduino
+<>
+
+* Change pins in code to fit your build
+
+* Use serial plotter to plot signal (Change baud rate as needed, in code and in serial plotter)
+![](Pictures_/signal%20acquired.JPG)
+
 
 ### Schematic
 
@@ -125,16 +158,36 @@ Dami Egbeyemi
 
 # Credits
 
-[1]T. Tomesh ‘Topics Map.jpg | Schoology’. [Online]. Available: https://app.schoology.com/course/1690671434/materials/gp/1762615894. [Accessed: 13-Dec-2018].
-[2]C. Sparnicht, A Light And Sound Machine for the Arduino Uno. Contribute to LaughterOnWater/Arduino-Brain-Machine development by creating an account on GitHub. 2017.
-[3]‘Brain Machine - TkkrLab’. [Online]. Available: https://tkkrlab.nl/wiki/Brain_Machine. [Accessed: 13-Dec-2018].
-[4]PublicResourceOrg, BASIC AMPLIFIERS. .
-[5]‘HOW TO - Make the “Brain machine” | Make:’, Make: DIY Projects and Ideas for Makers, 13-Nov-2008. [Online]. Available: https://makezine.com/2008/11/13/the-brain-machine/. [Accessed: 13-Dec-2018].
-[6]‘The Brain Machine!’ [Online]. Available: http://www.ladyada.net/make/brain/. [Accessed: 13-Dec-2018].
-[7]‘Overview | Brain Machine | Adafruit Learning System’. [Online]. Available: https://learn.adafruit.com/brain-machine/overview. [Accessed: 13-Dec-2018].
-[8]M. Hennessy and M. R. Hamblin, ‘Photobiomodulation and the brain: a new paradigm’, J Opt, vol. 19, no. 1, p. 013003, Jan. 2017.
-[9]U. Strehl, ‘What learning theories can teach us in designing neurofeedback treatments’, Front Hum Neurosci, vol. 8, Nov. 2014.
-[10]N. C. for B. Information, U. S. N. L. of M. 8600 R. Pike, B. MD, and 20894 Usa, SUMMARY OF EVIDENCE. Canadian Agency for Drugs and Technologies in Health, 2014.
-[11]‘chipstein’. [Online]. Available: https://sites.google.com/site/chipstein/home. [Accessed: 23-Nov-2018].
-[12]J. C. Rojas and F. Gonzalez-Lima, ‘Low-level light therapy of the eye and brain’, Eye Brain, vol. 3, pp. 49–67, Oct. 2011.
+[1] C. Sparnicht, A Light and Sound Machine for the Arduino Uno. Contribute to LaughterOnWater/Arduino-Brain-Machine development by creating an account on GitHub. 2017. 
 
+[2] PublicResourceOrg, BASIC AMPLIFIERS. [YouTube.com] . Available: https://www.youtube.com/watch?v=qSjgAzVGtbY [Accessed: 13-Dec-2018].
+
+
+[3] ‘Brain Machine - TkkrLab’. [Online]. Available: https://tkkrlab.nl/wiki/Brain_Machine. [Accessed: 13-Dec-2018].
+
+
+[4] ‘chipstein’. [Online]. Available: https://sites.google.com/site/chipstein/home. [Accessed: 23-Nov-2018].
+
+
+[5] ‘HOW TO - Make the “Brain machine” | Make:’, Make: DIY Projects and Ideas for Makers, 13-Nov-2008. [Online]. Available: https://makezine.com/2008/11/13/the-Brain-machine/. [Accessed: 13-Dec-2018].
+
+
+[6] J. C. Rojas and F. Gonzalez-Lima, ‘Low-level light therapy of the eye and Brain’, Eye Brain, vol. 3, pp. 49–67, Oct. 2011.
+
+
+[7] ‘Overview | Brain Machine | Adafruit Learning System’. [Online]. Available: https://learn.adafruit.com/Brain-machine/overview. [Accessed: 13-Dec-2018].
+
+
+[8] M. Hennessy and M. R. Hamblin, ‘Photobiomodulation and the Brain: a new paradigm’, J Opt, vol. 19, no. 1, p. 013003, Jan. 2017.
+
+
+[9] N. C. for B. Information, U. S. N. L. of M. 8600 R. Pike, B. MD, and 20894 Usa, SUMMARY OF EVIDENCE. Canadian Agency for Drugs and Technologies in Health, 2014.
+
+
+[10] ‘The Brain Machine!’ [Online]. Available: http://www.ladyada.net/make/Brain/. [Accessed: 13-Dec-2018].
+
+
+[11] U. Strehl, ‘What learning theories can teach us in designing neurofeedback treatments’, Front Hum Neurosci, vol. 8, Nov. 2014.
+
+
+[12] ‘Topics Map.jpg | Schoology’. [Online]. Available: https://app.schoology.com/course/1690671434/materials/gp/1762615894. [Accessed: 13-Dec-2018].
