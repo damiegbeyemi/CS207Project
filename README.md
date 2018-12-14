@@ -13,6 +13,7 @@ Since Mitch’s design uses regular LED lights shone through glasses, on the clo
 * /Pictures - images of build from inception to completion
 * /Project Proposal - Initial Proposal for project build
 * /Sources - Code, Studies, Research, Cited Material etc. 
+* /Supporting Documentation - Project plan, Technical details
 
 # Requirements and materials
 
