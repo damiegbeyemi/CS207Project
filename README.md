@@ -62,12 +62,79 @@ The arduino UNO board will be used test the system by collecting Brain Wave Data
 * Helping hands with Magnifying glass
 
 # Build Instructions
+## For PNFB Glasses
+
+Read full Details in Completion report
+
+### Schematic
+![](Pictures_/
+
+
+* Build the speaker and LED circuit by using a bread board 
+![](Pictures_/20181104_224748.jpg)
+
+* Drill holes into safety glasses and insert LEDs, illuminated side pointing towards the eyes. 
+![](Pictures_/20181105_184813.jpg)
+
+* Connect Arduino to the arm of safetyglasses
+![](Pictures_/20181105_184800.jpg)
+
+* Test circuit on Breadboard by using Chris Sperlict Code
+![](Pictures_/20181106_223923.jpg)
+
+* Add potentiometer (For Volume control) and Toggle switch (on/off)
+![](Pictures_/20181107_102157.jpg)
+
+* Integrate speakers and other components into the mounted arduino
+![](Pictures_/20181107_102225.jpg)
+
+* Test the circuit comfort by wearing and observing sound and light sequences
+![](Pictures_/20181107_144901.jpg)
+
+* Secure wiring using painters tape to ensure wires are not loose while wrapping
+![](Pictures_/20181107_145507.jpg)
+
+* Wrap surface using electrical tape for aesthetics
+
+## For PNFB Glasses
+
+Read full Details in Completion report
+
+### Schematic
+
 
 # Firmware Installation
 
+* Ensure you change Pins in code to relevant Pins used on Arduino for Speakers, LEDs, Potentiometer and switch
+* Use Arduino IDE to upload Code to Arduino Uno
+
 # Usage
+
+1.	Sit in a comfortable position, preferably in a quiet room.
+2.	Put on the device, as you would regular glasses.
+3.	Close your eyes, and keep them closed for the entire length of the session (14 minutes).
+4.	Turn on the device by flipping the toggle switch from the off position, to the on position.
+5.	Relax and listen to the tones from the speakers, while the LEDs flash pulses of light through the eyelids.
+6.	After 14 minutes the device automatically shuts off.
+7.	Carefully take off the glasses.
+8.	Turn the switch to the off position. 
+
 
 # Team
 Dami Egbeyemi
 
 # Credits
+
+[1]T. Tomesh ‘Topics Map.jpg | Schoology’. [Online]. Available: https://app.schoology.com/course/1690671434/materials/gp/1762615894. [Accessed: 13-Dec-2018].
+[2]C. Sparnicht, A Light And Sound Machine for the Arduino Uno. Contribute to LaughterOnWater/Arduino-Brain-Machine development by creating an account on GitHub. 2017.
+[3]‘Brain Machine - TkkrLab’. [Online]. Available: https://tkkrlab.nl/wiki/Brain_Machine. [Accessed: 13-Dec-2018].
+[4]PublicResourceOrg, BASIC AMPLIFIERS. .
+[5]‘HOW TO - Make the “Brain machine” | Make:’, Make: DIY Projects and Ideas for Makers, 13-Nov-2008. [Online]. Available: https://makezine.com/2008/11/13/the-brain-machine/. [Accessed: 13-Dec-2018].
+[6]‘The Brain Machine!’ [Online]. Available: http://www.ladyada.net/make/brain/. [Accessed: 13-Dec-2018].
+[7]‘Overview | Brain Machine | Adafruit Learning System’. [Online]. Available: https://learn.adafruit.com/brain-machine/overview. [Accessed: 13-Dec-2018].
+[8]M. Hennessy and M. R. Hamblin, ‘Photobiomodulation and the brain: a new paradigm’, J Opt, vol. 19, no. 1, p. 013003, Jan. 2017.
+[9]U. Strehl, ‘What learning theories can teach us in designing neurofeedback treatments’, Front Hum Neurosci, vol. 8, Nov. 2014.
+[10]N. C. for B. Information, U. S. N. L. of M. 8600 R. Pike, B. MD, and 20894 Usa, SUMMARY OF EVIDENCE. Canadian Agency for Drugs and Technologies in Health, 2014.
+[11]‘chipstein’. [Online]. Available: https://sites.google.com/site/chipstein/home. [Accessed: 23-Nov-2018].
+[12]J. C. Rojas and F. Gonzalez-Lima, ‘Low-level light therapy of the eye and brain’, Eye Brain, vol. 3, pp. 49–67, Oct. 2011.
+
