@@ -42,7 +42,7 @@ The arduino UNO board will be used test the system by collecting Brain Wave Data
 * 1 - 47 Ohm Resistor
 * 1 - 2.2k Resistor
 * 1 - toggle switch
-* 1 - 9v batter
+* 1 - 9v battery
 * 1- 9v battery holder with power plug
 * 1 - Arduino Uno
 * 1 - pair of Safety glasses
